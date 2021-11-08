@@ -42,7 +42,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>eurekaservice</finalName>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
